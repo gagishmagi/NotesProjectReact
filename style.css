@@ -1,0 +1,72 @@
+body {
+    background-image: url("img/background.jpg");
+    background-color: #cccccc;
+}
+h1 {
+    text-align: center;
+    width: 90vw;
+    margin: auto;
+    padding: 1vw;
+}
+.form {
+    display: flex;
+    width: 90vw;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    padding: 1vw;
+}
+
+button {
+    border: none;
+    padding: 0.5vw;
+    margin: 0 auto;
+    align-self: center;
+    justify-content: center;
+    justify-self: center;
+
+}
+
+#myForm {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    padding: 15px;
+}
+
+.singleNote {
+    background-image: url('img/note.png');
+    background-repeat: no-repeat;
+    background-size:contain;
+    width: 30vw;
+    height: 30vw;
+    margin-top: 4vw;
+    min-width: 200px;
+    min-height: 200px;
+    
+
+}
+
+.singleNote p {
+    text-align: center;
+    font-size: 2.2vw;
+    position: relative;
+    top: 4vw;
+}
+
+.notes {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.close {
+    position: relative;
+    top: 4vw;
+    left: 1vw;
+    width: 2vw;
+    background: none;
+    font-weight: bold;
+}
